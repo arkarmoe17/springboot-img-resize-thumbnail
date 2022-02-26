@@ -3,12 +3,14 @@ package com.arkarmoe.springbootimgresize.controller;
 import com.arkarmoe.springbootimgresize.service.ImageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/api")
 public class ImageController {
     private final ImageService imageService;
 
