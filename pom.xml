@@ -84,6 +84,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>springboot-resize-img</finalName>
     </build>
 
 </project>
